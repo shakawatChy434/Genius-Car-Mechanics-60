@@ -1,17 +1,14 @@
-.single-service{
-    background-color: #000;
-    height: auto;
-    width: auto;
+ .details{
+    background-color: rgb(48, 45, 45);
     color: #fff;
     border: 2px solid gray;
     border-radius: 5px;
     padding: 10px;
 }
 
-.single-service img{
+.details img{
     height: 200px;
     width:100%;
     border-radius: 5px;
     border-radius: 5px;
-
-} 
+}  
