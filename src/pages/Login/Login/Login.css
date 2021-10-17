@@ -1,0 +1,33 @@
+.login-details{
+    /* display: flex; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.icon img{
+    height: 60px;
+    margin-right: -40px;
+}
+.icon:hover img{
+    box-shadow: black;
+    background:cyan;
+    border: 3px solid gray;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+.icon-text{
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px
+}
+.icon-heading{
+    color: rgb(33, 33, 202);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.icon-heading:hover{
+    font-size: 50px;
+}

@@ -3,7 +3,7 @@
     color: #fff;
     border: 2px solid gray;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .details img{
@@ -11,4 +11,10 @@
     width:100%;
     border-radius: 5px;
     border-radius: 5px;
-}  
+}
+.booking-btn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    background-color: chartreuse;
+    border-radius: 10px;
+}

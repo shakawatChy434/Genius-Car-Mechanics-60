@@ -12,7 +12,7 @@ const Experts = () => {
             .then(data => setExperts(data))
     }, [])
     return (
-        <div className="container">
+        <div id="experts" className="container">
             <div className="row">
                 <h1 className="text-primary mt-5">OUR EXPERTS</h1>
                 <div className="row total-details">
