@@ -11,6 +11,8 @@ import Login from './pages/Login/Login/Login';
 import Header from './pages/Shared/Header/Header';
 import AuthProvider from './context/AuthProvider';
 import PrivetRoute from './pages/Login/PrivetRoute';
+import AddServic from './pages/AddServic/AddServic';
+import ManageService from './pages/ManageService/ManageService';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route exact path="/"><Home></Home> </Route>
             <Route path="/home"><Home></Home> </Route>
             <PrivetRoute path="/booking/:serviceId"><Booking></Booking> </PrivetRoute>
+            <Route path="/addServices"><AddServic></AddServic> </Route>
+            <Route path="/manageServices"><ManageService></ManageService> </Route>
             <Route path="/login"><Login></Login> </Route>
             <Route path="*"><NotFound></NotFound> </Route>
           </Switch>
