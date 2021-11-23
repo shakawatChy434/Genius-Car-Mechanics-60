@@ -18,7 +18,7 @@ const Booking = () => {
     return (
         <div>
             <h2> Name  :  {service.name} </h2>
-            <h3>BOKKING: {serviceId} </h3>
+            <h3>BOKKING Now : {serviceId} </h3>
 
 
             <Link to="/home#services">
